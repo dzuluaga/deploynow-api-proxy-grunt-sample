@@ -1,3 +1,4 @@
+npm install
 grunt --env=test --username=$ae_username --password=$ae_password --upload-modules=true --org=$org --env=$env --debug=true --force
 
 echo "Test your APIs with the following http command"
