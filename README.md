@@ -13,3 +13,11 @@ Note that Deploy Now button requires the following query parameters:
 - repo: https://github.com/dzuluaga/deploynow-api-proxy-grunt-sample
 - apiFolder: /
 - makeScript: make.sh
+
+#### Tests
+At the end of the execution of the deployment you'll see two URLs generated based on your org profile:
+
+```
+San Francisco - https://$org-$env.apigee.net/deploynow-api-proxy-grunt-sample/forecastweather_node/2487956
+Cali-Colombia - https://$org-$env.apigee.net/deploynow-api-proxy-grunt-sample/apigee/forecastrss?w=368149
+```
